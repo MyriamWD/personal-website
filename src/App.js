@@ -1,19 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Intro from './components/intro';
-import Navigation from './components/navigation';
+import Navigation from './components/Navigation';
+import Home from './components/Home';
+import About from './components/About';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <Intro  />
+    <div className='App'>
+      <header className='App-header'>
         <Navigation />
-     
-
       </header>
+      <body className='App-body'>
+        <Home />
+        <About />
+        <Experience />
+        <Contact />
+      </body>
     </div>
   );
 }

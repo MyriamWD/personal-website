@@ -1,14 +1,22 @@
 import React from 'react';
+import './Navigation.css';
 
-function navigation () {
+function Navigation () {
     return (
-        <nav>
-            <ul>
-                <li>About me</li>
-                <li>Contact me</li>
+        <nav className='navbar'>
+            <a className='home'>Home</a>
+
+            <ul className='nav-links'>
+                <li>About</li>
+                <li>Experience</li>
+                <li>Contact</li>    
+                <li>Resume</li> 
             </ul>
         </nav>
     )
 }
 
-export default navigation;
+export default Navigation;
+
+
+//Todo: Resume will be it's own component with fun ang games - link to download a pdf with my resume

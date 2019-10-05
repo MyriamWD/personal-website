@@ -1,0 +1,9 @@
+.home-section {
+    min-height: 100vh;
+    background-color: lightblue;
+    padding-top: 100px;
+}
+
+p {
+    margin-top :0px;
+}

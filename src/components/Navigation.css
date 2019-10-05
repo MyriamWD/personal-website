@@ -1,0 +1,26 @@
+
+.navbar {
+    display: flex;
+    position: fixed;
+    min-width: 100%;
+    justify-content:  space-between;
+    background-color: #282c34;
+    color:white;
+}
+
+.home{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    align-self: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
