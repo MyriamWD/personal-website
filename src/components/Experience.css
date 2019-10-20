@@ -1,4 +1,51 @@
 .experience-section {
-    min-height: 100vh;
     background-color: lightcoral; 
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+
+.projects-carousel img{
+    margin-left: 9rem;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: auto\9; /* ie8 */
+    max-height: 80vh;
+    max-width: 100%;
+}
+
+.divider {
+    margin-left:50%;
+    margin-top: 0;
+    min-width: 300px;
+    min-height: 80%;
+    background-color: red;
+}
+
+.caurousel-indicators {
+    margin-bottom: 0; 
+}
+
+.projects-carousel {
+    position: relative;
+    margin: auto;
+    min-height: 50vh;
+    max-height: 100vh;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .projects-carousel {
+        display: block;
+        min-height: 100vh;
+    }
+    .projects-carousel img {
+        margin: auto;
+    }
+
+    .divider {
+        margin-bottom: 0;
+        visibility: hidden;
+    }
 }

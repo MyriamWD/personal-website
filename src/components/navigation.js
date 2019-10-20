@@ -4,7 +4,7 @@ import './Navigation.css';
 
 function Navigation () {
     return (
-        <nav className='navbar'>
+        <nav className="navigation-bar">
             <Link
                 activeClass="active"
                 className="home"

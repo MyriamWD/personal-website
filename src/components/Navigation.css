@@ -1,21 +1,26 @@
 
-.navbar {
+.navigation-bar {
     display: flex;
     position: fixed;
+    z-index: 4;
     min-width: 100%;
+    min-height: 4rem;
     justify-content:  space-between;
     background-color: #282c34;
     color:white;
 }
 
-.navbar .home{
+.navigation-bar .home{
     padding-right: 2rem;
     padding-left: 2rem;
     align-self: center;
 }
 
 .nav-links {
+    align-self: center;
     display: flex;
+    margin: auto;
+    margin-right: 0;
 }
 
 .nav-links li {
