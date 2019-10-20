@@ -1,22 +1,69 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Navigation.css';
 
 function Navigation () {
     return (
-        <nav className='navbar'>
-            <a className='home'>Home</a>
+        <nav className="navigation-bar">
+            <Link
+                activeClass="active"
+                className="home"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration= {500}>
+                    Home
+                </Link>
 
             <ul className='nav-links'>
-                <li>About</li>
-                <li>Experience</li>
-                <li>Contact</li>    
-                <li>Resume</li> 
+                <li>
+                    <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration= {500}>
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                    activeClass="active"
+                    to="experience"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration= {500}>
+                        Experience
+                    </Link> 
+                </li>
+                <li>
+                    <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration= {500}>
+                        Contact
+                    </Link> 
+                </li>    
+                <li>
+                    <Link
+                    activeClass="active"
+                    to="resume"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration= {500}>
+                        Resume
+                    </Link>
+                </li> 
             </ul>
-        </nav>
+        </nav>     
     )
 }
 
 export default Navigation;
-
-
-//Todo: Resume will be it's own component with fun ang games - link to download a pdf with my resume

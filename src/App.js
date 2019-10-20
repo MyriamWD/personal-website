@@ -1,25 +1,28 @@
 import React from 'react';
-import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <Navigation />
+        <Navigation />      
       </header>
       <body className='App-body'>
         <Home />
         <About />
         <Experience />
-        <Contact />
+        <Contact /> 
       </body>
     </div>
   );
 }
 
 export default App;
+
+        
