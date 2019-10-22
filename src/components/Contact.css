@@ -1,3 +1,78 @@
 .contact-section {
+    background-color: #091f36;
+    
     min-height: 100vh;
+    vertical-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.contact-info {
+    color: white;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 5rem;
+}
+
+.contact-button {
+    position: relative;
+    display: inline-block;
+    background-color: #091f36;
+    border: 2px solid #00FFFF;
+    color: #00FFFF;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin: 2rem;
+}
+
+.contact-copied {
+    position: relative;
+    display: inline-block;
+    background-color: #091f36;
+    border: 2px solid #33FF00;
+    color: #33FF00;
+    border-radius: 4px;
+    font-size: 1rem;
+    height: 3rem;
+    width: 8rem;
+    margin: 2rem;
+}
+
+.contact-button .copy-hint, .contact-copied .copy-hint {
+    visibility: hidden;
+    width: 200px;
+    background-color: #474747;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    opacity: 4;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 20%;
+    margin-left: -60px; 
+}
+
+.contact-button:hover .copy-hint, .contact-copied:hover .copy-hint{
+    visibility: visible;
+}
+
+.contact-button .copy-hint::after, .contact-copied .copy-hint::after {
+    content: " ";
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #474747 transparent transparent transparent;
+}
+  
+  
