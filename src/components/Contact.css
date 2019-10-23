@@ -15,6 +15,7 @@
 }
 
 .contact-title {
+    margin-bottom: 0;
     font-size: 5rem;
 }
 
@@ -25,10 +26,11 @@
     border: 2px solid #00FFFF;
     color: #00FFFF;
     height: 3rem;
-    width: 8rem;
+    width: 10rem;
     font-size: 1rem;
     border-radius: 4px;
-    margin: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .contact-copied {
@@ -40,8 +42,9 @@
     border-radius: 4px;
     font-size: 1rem;
     height: 3rem;
-    width: 8rem;
-    margin: 2rem;
+    width: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .contact-button .copy-hint, .contact-copied .copy-hint {
@@ -55,24 +58,39 @@
     opacity: 4;
     position: absolute;
     z-index: 1;
-    bottom: 120%;
-    left: 20%;
+    bottom: -120%;
+    left: 25%;
     margin-left: -60px; 
 }
 
-.contact-button:hover .copy-hint, .contact-copied:hover .copy-hint{
+.contact-button:hover .copy-hint, .contact-copied:hover .copy-hint {
     visibility: visible;
 }
 
 .contact-button .copy-hint::after, .contact-copied .copy-hint::after {
     content: " ";
     position: absolute;
-    bottom: -30%;
+    bottom: 100%;
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #474747 transparent transparent transparent;
+    border-color: transparent transparent   #474747 transparent;
+}
+
+.contact-button:focus, .contact-copied:focus {
+    outline: none;
 }
   
+.contact-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    fill: white;
+}
+
+.contact-logo:hover {
+    fill: #00FFFF;
+}
   
