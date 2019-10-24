@@ -26,7 +26,7 @@
     border: 2px solid #00FFFF;
     color: #00FFFF;
     height: 3rem;
-    width: 10rem;
+    width: 18rem;
     font-size: 1rem;
     border-radius: 4px;
     margin-top: 1.5rem;
@@ -42,7 +42,7 @@
     border-radius: 4px;
     font-size: 1rem;
     height: 3rem;
-    width: 10rem;
+    width: 18rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -59,7 +59,7 @@
     position: absolute;
     z-index: 1;
     bottom: -120%;
-    left: 25%;
+    left: 36%;
     margin-left: -60px; 
 }
 
@@ -71,7 +71,7 @@
     content: " ";
     position: absolute;
     bottom: 100%;
-    left: 50%;
+    left: 51%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
