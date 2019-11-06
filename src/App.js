@@ -19,6 +19,9 @@ function App() {
         <Experience />
         <Contact /> 
       </body>
+      <footer className='App-footer'>
+        <small>&copy; Developed by Myriam</small>
+      </footer>
     </div>
   );
 }

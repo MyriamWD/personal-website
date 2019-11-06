@@ -70,6 +70,7 @@
 .project-description {
     margin-left: 2rem;
     margin-right: 2rem;
+    line-height: 2rem;
 }
 
 .project-description a.place {

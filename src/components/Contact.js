@@ -61,7 +61,6 @@ export default class Contact extends Component {
                         <span className="copy-hint">{this.state.hint}</span>
                          myriam.waldenduarte@gmail.com
                     </button>
-                    
                 </section>
             </section>
         ) 

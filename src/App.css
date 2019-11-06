@@ -6,8 +6,21 @@
 
 .App-body {
   margin: 0px;
+  line-height: 1.5;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-footer {
+  background-color: #061525;
+  color: white;
+  text-align: center;
+  height: 6rem;
+  margin: 0;
+}
+
+.App-footer small {
+  line-height: 6rem;
 }
