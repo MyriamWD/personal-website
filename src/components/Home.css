@@ -1,9 +1,31 @@
 .home-section {
+    
     min-height: 100vh;
-    background-color: lightblue;
-    padding-top: 100px;
+    background-color: #091f36;
+    vertical-align: center;
+    max-width: 80%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-p {
-    margin-top :0px;
+.content-home {
+    margin-bottom: 0;
+    color: white;
+    vertical-align: center;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.content-subtitle {
+    color: lightsteelblue;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.learn {
+    color: #00FFFF !important;
+    font-size: 2rem;
 }
