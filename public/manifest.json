@@ -3,12 +3,7 @@
   "name": "Myriam's personal website",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
+      "src": "mwd-logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
