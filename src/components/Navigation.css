@@ -5,10 +5,11 @@
     position: fixed;
     z-index: 4;
     min-width: 100%;
-    min-height: 4rem;
+    min-height: 5rem;
     justify-content:  space-between;
     background-color: #091f36;
-    color:white;
+    font-size: 18px;
+    color: white;
 }
 
 .navigation-bar .home{
@@ -21,12 +22,37 @@
     align-self: center;
     display: flex;
     margin: auto;
-    margin-right: 0;
+    margin-right: 2rem;
 }
 
 .nav-links li {
-    padding-right: 2rem;
-    padding-left: 2rem;
     list-style-type: none;
 }
 
+.nav-link p{
+    border: 2px solid #091f36;
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+}
+
+li :hover p {
+    border: 2px solid #33FF00;
+    border-radius: 4px;
+    color: #33FF00;
+}
+
+#contact-label {
+    border: 2px solid #00FFFF;
+    border-radius: 4px;
+    color: #00FFFF;
+}
+
+li :hover #contact-label {
+    border: 2px solid #33FF00;
+    border-radius: 4px;
+    color: #33FF00;
+}

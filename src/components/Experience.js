@@ -52,26 +52,23 @@ function Experience() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <a href="https://tipsytime.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="crop">
+                    <a href="https://assets.rbl.ms/10582635/origin.jpg" target="_blank" rel="noopener noreferrer" className="crop">
                         <img className="project-image" src="https://assets.rbl.ms/10582635/origin.jpg"/>
                     </a>
                     <Carousel.Caption className="divider">
-                        <a href="https://tipsytime.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-name">
+                        <a href="https://assets.rbl.ms/10582635/origin.jpg" target="_blank" rel="noopener noreferrer" className="project-name">
                             <h3>Puppies</h3>
                         </a>
                         <section className="project-description">
-                            <p>E-commerce platform for liquor store with user authentication, shopping cart, merchandise listing and merchants dashboard.</p>
-                            <p>Developed by a team of 4 devs on 2 weeks</p>
-                            <p>Ruby on rails  OAuth MVC Unit Testing</p>
+                            <p>Soul fulfilling placeholder. Aren’t they cute? :) </p>
+                            <p>oul fulfilling placeholder. Aren’t they cute? :)</p>
                         </section>
-                        <a href="https://github.com/MyriamWD/betsy" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/MyriamWD/" target="_blank" rel="noopener noreferrer">
                             <img className="github" src={githublogo}/>
                         </a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            
-            
         </div>
     )
 }

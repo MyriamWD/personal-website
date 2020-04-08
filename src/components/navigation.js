@@ -19,46 +19,50 @@ function Navigation () {
             <ul className='nav-links'>
                 <li>
                     <Link
+                    className="nav-link"
                     activeClass="active"
                     to="about"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration= {500}>
-                        About
+                        <p id="about-label">About</p>
                     </Link>
                 </li>
                 <li>
                     <Link
+                    className="nav-link"
                     activeClass="active"
                     to="experience"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration= {500}>
-                        Experience
+                        <p id="experience-label">Experience</p>
                     </Link> 
                 </li>
                 <li>
                     <Link
+                    className="nav-link"
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration= {500}>
-                        Contact
+                        <p id="contact-label">Contact</p>
                     </Link> 
                 </li>    
                 <li>
                     <Link
+                    className="nav-link"
                     activeClass="active"
                     to="resume"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration= {500}>
-                        Resume
+                        <p id="resume-label">Resume</p>
                     </Link>
                 </li> 
             </ul>

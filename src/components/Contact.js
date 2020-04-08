@@ -15,7 +15,7 @@ export default class Contact extends Component {
     }
     
     copyCodeToClipboard = () => {
-        navigator.clipboard.writeText("myriam.waldend@gmail.com")
+        navigator.clipboard.writeText("myriam.waldenduarte@gmail.com")
         this.setState({
             emailCopied: true,
             hint: 'Email copied, yay!'
@@ -36,13 +36,13 @@ export default class Contact extends Component {
                 
                     <p className="contact-title">Let's connect!</p>
                     <p className="contact-description">
-                    New projects are always exciting, especially if they involve full-stack development.
+                    I'm so glad you made it to this page! 
                     </p>
                     <p className="contact-description">
-                    New projects are always exciting, especially if they involve full-stack development.
+                    I'd love to hear more about you and what brought you to visit my website.
                     </p>
                     <p className="contact-description">
-                        especially if they involve full-stack development.
+                    Now we are just one click away from connecting.
                     </p>
                     
                     <div>

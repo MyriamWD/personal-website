@@ -24,8 +24,8 @@
     border: 2px solid #00FFFF;
     color: #00FFFF;
     height: 3rem;
-    width: 18rem;
-    font-size: 1rem;
+    width: 20rem;
+    font-size: 18px;
     border-radius: 4px;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
@@ -38,9 +38,9 @@
     border: 2px solid #33FF00;
     color: #33FF00;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 18px;
     height: 3rem;
-    width: 18rem;
+    width:20rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -58,7 +58,8 @@
     z-index: 1;
     bottom: -120%;
     left: 36%;
-    margin-left: -60px; 
+    margin-left: -60px;
+    font-size: 1rem;
 }
 
 .contact-button:hover .copy-hint, .contact-copied:hover .copy-hint {
@@ -85,10 +86,10 @@
     height: 3rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    fill: white;
+    fill: #00FFFF; 
 }
 
 .contact-logo:hover {
-    fill: #00FFFF;
+    fill: #33FF00;
 }
   

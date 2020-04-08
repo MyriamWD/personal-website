@@ -5,19 +5,13 @@ import './About.css';
 function About() {
     return (
         <div className='about-section' id='about'>
-            
-            
-            <Parallax strength={400}
-                bgImage={require("../images/onePhoto.jpg")}
+              
+            <Parallax strength={330}
+                bgImage={require("../images/myriam_wd_r.jpg")}
                 >
                     <div className="content-about">
-                        <p >Let's connect!</p>
-                        <p className="about-info" >Let's connect!</p>
-
+                        <p className="about-info" >Comming soon!</p>
                     </div>
-                    
-                
-                
             </Parallax>
         </div>
     )
