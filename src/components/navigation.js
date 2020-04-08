@@ -1,5 +1,8 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image'
 import { Link, animateScroll as scroll } from "react-scroll";
+import HomeLogo from '../images/home-logo.png';
+import ResumePDF from '../documents/mwd-resume-2020.pdf';
 import './Navigation.css';
 
 function Navigation () {
@@ -13,7 +16,7 @@ function Navigation () {
                 smooth={true}
                 offset={0}
                 duration= {500}>
-                    Home
+                    <Image src={HomeLogo} height="80"/>
                 </Link>
 
             <ul className='nav-links'>
@@ -54,16 +57,9 @@ function Navigation () {
                     </Link> 
                 </li>    
                 <li>
-                    <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="resume"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration= {500}>
+                    <a className="nav-link" href={ResumePDF} target="_blank">
                         <p id="resume-label">Resume</p>
-                    </Link>
+                    </a> 
                 </li> 
             </ul>
         </nav>     

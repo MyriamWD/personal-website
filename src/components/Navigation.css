@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 4;
     min-width: 100%;
-    min-height: 5rem;
+    min-height: 6rem;
     justify-content:  space-between;
     background-color: #091f36;
     font-size: 18px;
@@ -40,9 +40,9 @@
 }
 
 li :hover p {
-    border: 2px solid #33FF00;
+    border: 2px solid #00FFFF;
     border-radius: 4px;
-    color: #33FF00;
+    color: #00FFFF;
 }
 
 #contact-label {
@@ -55,4 +55,14 @@ li :hover #contact-label {
     border: 2px solid #33FF00;
     border-radius: 4px;
     color: #33FF00;
+}
+
+#resume-label {
+    color: white;
+}
+
+li :hover #resume-label {
+    border: 2px solid #00FFFF;
+    border-radius: 4px;
+    color: #00FFFF;
 }

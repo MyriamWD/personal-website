@@ -6,7 +6,7 @@ function About() {
     return (
         <div className='about-section' id='about'>
               
-            <Parallax strength={330}
+            <Parallax strength={350}
                 bgImage={require("../images/myriam_wd_r.jpg")}
                 >
                     <div className="content-about">

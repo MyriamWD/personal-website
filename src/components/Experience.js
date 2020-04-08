@@ -61,7 +61,6 @@ function Experience() {
                         </a>
                         <section className="project-description">
                             <p>Soul fulfilling placeholder. Aren’t they cute? :) </p>
-                            <p>oul fulfilling placeholder. Aren’t they cute? :)</p>
                         </section>
                         <a href="https://github.com/MyriamWD/" target="_blank" rel="noopener noreferrer">
                             <img className="github" src={githublogo}/>

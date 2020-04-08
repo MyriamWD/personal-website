@@ -42,7 +42,7 @@ export default class Contact extends Component {
                     I'd love to hear more about you and what brought you to visit my website.
                     </p>
                     <p className="contact-description">
-                    Now we are just one click away from connecting.
+                    We are just one click away from connecting.
                     </p>
                     
                     <div>
