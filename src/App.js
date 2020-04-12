@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
@@ -8,18 +8,43 @@ import { ReactComponent as GithubLogo } from './images/github-logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
-  return (
+export default class App extends Component {
+
+  constructor(props){
+    super(props)
+    this.state = {
+      hamburgerMenuOn: false,
+    }
+  }
+
+  activateHamburgerMenu = () => {
+    this.setState({
+        hamburgerMenuOn: !this.state.hamburgerMenuOn,
+    })
+  }
+
+  turnOffHamburgerMenu = () => {
+    this.setState({
+      hamburgerMenuOn: false,
+    })
+  }
+  
+  render () {
+    return (
     <div className='App'>
       <header className='App-header'>
-        <Navigation />      
+        <Navigation 
+          hamburgerMenuOn={this.state.hamburgerMenuOn} 
+          activateHamburgerMenu={this.activateHamburgerMenu} 
+          turnOffHamburgerMenu={this.turnOffHamburgerMenu}
+        />      
       </header>
-      <body className='App-body'>
+      <div className='App-body'>
         <Home />
         <About />
         <Experience />
         <Contact />
-      </body>
+      </div>
       <footer className='App-footer'>
         <small>&copy; 2020 Myriam Walden-Duarte</small>
         <a href={"https://github.com/MyriamWD/personal-website"} target="_blank">
@@ -27,9 +52,8 @@ function App() {
         </a>
       </footer>
     </div>
-  );
+    )
+  }
 }
-
-export default App;
 
         
