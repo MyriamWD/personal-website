@@ -53,7 +53,7 @@ export default class Navigation extends Component {
                         smooth={true}
                         offset={0}
                         duration= {500}>
-                            <p id="experience-label">Experience</p>
+                            <p id="experience-label">Projects</p>
                         </Link> 
                     </li>
                     <li>

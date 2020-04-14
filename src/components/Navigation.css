@@ -36,6 +36,7 @@
         position: fixed;
         margin-top: 1.5rem;
         margin-left: 80%;
+        opacity: 0.8;
     }
 
     .hamburger-menu-open .menu-burger {
@@ -114,41 +115,50 @@
     }
     
     .hamburger-navigation-bar {
-        min-height: 60vh;
+        min-height: 69vh;
         background-color: #091f36;
         color: white;
-        opacity: 1;
+    }
+
+    #resume-label {
+        color: white;
     }
     
     .hamburger-nav-links {
         background-color: #091f36;
         color: white;
         list-style: none;
-        margin-top: 7rem;
+        margin-top: 4rem;
         margin-right: 15%;
         margin-left: 5%; 
         width: 90%;
-        
     }
 
     .hamburger-menu-open:focus, .hamburger-menu-closed:focus {
         outline: none;
     }
 
+    .nav-link p {
+        margin-top: 1rem;
+        margin-left: 2rem;
+
+    }
+
     .nav-link {
         box-shadow: 0 2px 6px 8px rgba(2, 0, 0, 0.2), 1px 1px 2px 0 rgba(0, 0, 0, 0.19);
-        border-bottom: 1px solid #00FFFF;
+        border-bottom: 2px solid #00FFFF;
         border-radius: 5px;
         width: 6rem;
         min-width: 80%;
         transition: width 0.3s;
-        margin: 1rem;
+        margin-bottom: 1rem;
+        /* text-align: center; */
+        font: open;
     }
     .nav-link:hover {
         box-shadow: 0 2px 6px 8px rgba(2, 0, 0, 0.2), 1px 1px 2px 0 rgba(0, 0, 0, 0.19);
-        border-bottom: 2px solid #00FFFF;
-        width: 100%;
-    
+        border-bottom: 1.5px solid #00FFFF;
+        width: 90%;
     }
 
     .nav-link p:hover .nav-link a:visited { /*Expand width to the sides -> adjust the .nav-link name*/
