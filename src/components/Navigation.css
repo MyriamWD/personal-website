@@ -11,7 +11,7 @@
         min-height: 6rem;
         justify-content:  space-between;
         background-color: #091f36;
-        font-size: 18px;
+        font-size: 11px;
         color: white;
     }
 
@@ -115,7 +115,7 @@
     }
     
     .hamburger-navigation-bar {
-        min-height: 69vh;
+        min-height: 6vh;
         background-color: #091f36;
         color: white;
     }
@@ -128,7 +128,8 @@
         background-color: #091f36;
         color: white;
         list-style: none;
-        margin-top: 4rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
         margin-right: 15%;
         margin-left: 5%; 
         width: 90%;
@@ -141,7 +142,6 @@
     .nav-link p {
         margin-top: 1rem;
         margin-left: 2rem;
-
     }
 
     .nav-link {
@@ -152,9 +152,9 @@
         min-width: 80%;
         transition: width 0.3s;
         margin-bottom: 1rem;
-        /* text-align: center; */
         font: open;
     }
+
     .nav-link:hover {
         box-shadow: 0 2px 6px 8px rgba(2, 0, 0, 0.2), 1px 1px 2px 0 rgba(0, 0, 0, 0.19);
         border-bottom: 1.5px solid #00FFFF;
@@ -169,7 +169,7 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
     .navigation-bar, .hamburger-navigation-bar {
         box-shadow: 0 2px 6px 8px rgba(2, 0, 0, 0.2), 1px 1px 2px 0 rgba(0, 0, 0, 0.19);

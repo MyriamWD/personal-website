@@ -93,3 +93,16 @@
     fill: #33FF00;
 }
   
+
+@media only screen and (max-width: 768px) {
+    .contact-title {
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-section {
+        min-height: 80vh;
+        margin-top: 3rem;
+    }
+}
