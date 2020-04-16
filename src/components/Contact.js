@@ -45,7 +45,7 @@ export default class Contact extends Component {
                     We are just one click away from connecting.
                     </p>
                     
-                    <div>
+                    <div className="contact-logo-section">
                         <a href="https://github.com/MyriamWD" target="_blank" rel="noopener noreferrer">
                             <GithubLogo className="contact-logo"/>
                         </a>

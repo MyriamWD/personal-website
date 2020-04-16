@@ -32,6 +32,20 @@ export default class Navigation extends Component {
                 <ul className={this.props.hamburgerMenuOn? "hamburger-nav-links" : "nav-links"}>
                     <li>
                         <Link
+                        id="hamburger-home"
+                        className="nav-link"
+                        activeClass="active"
+                        onClick={this.props.turnOffHamburgerMenu}
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {500}>
+                            <p>Home</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
                         className="nav-link"
                         activeClass="active"
                         onClick={this.props.turnOffHamburgerMenu}

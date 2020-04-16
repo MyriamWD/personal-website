@@ -95,14 +95,92 @@
   
 
 @media only screen and (max-width: 768px) {
+    .contact-section {
+        min-height: 80vh;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .contact-info {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
     .contact-title {
         font-size: 4rem;
         line-height: 4rem;
         margin-bottom: 2rem;
     }
+}
 
+@media only screen and (max-width: 600px) {
     .contact-section {
-        min-height: 80vh;
-        margin-top: 3rem;
+        min-height: 70vh;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
+
+    .contact-title {
+        font-size: 3rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-info {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .contact-section {
+        min-height:70vh;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .contact-description {
+        font-size: 12px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+
+    .contact-logo {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .contact-logo-section {
+        margin-top: 1.5rem;
+    }
+
+    .contact-info {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .contact-button {
+    position: relative;
+    display: inline-block;
+    background-color: #091f36;
+    border: 2px solid #00FFFF;
+    color: #00FFFF;
+    height: 3rem;
+    width: 15rem;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
 }
