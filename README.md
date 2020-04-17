@@ -6,4 +6,4 @@ Visit [myriamwd.com](https://myriamwd.com/) to find some of my projects, persona
 
 *I'm still working on content and responsiveness!*
 
-[Image](src/images/Demo)
+[Image](https://github.com/MyriamWD/personal-website/blob/master/src/images/Demo.png)
