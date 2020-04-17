@@ -1,3 +1,89 @@
+
+@media only screen and (min-width: 769px) {
+
+    .navigation-bar, .hamburger-navigation-bar {
+        box-shadow: 0 2px 6px 8px rgba(2, 0, 0, 0.2), 1px 1px 2px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        position: fixed;
+        z-index: 4;
+        min-width: 100%;
+        min-height: 6rem;
+        justify-content:  space-between;
+        background-color: #091f36;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .navigation-bar .home, .hamburger-navigation-bar .home-hidden { 
+        padding-right: 2rem;
+        padding-left: 2rem;
+        align-self: center;
+        cursor: pointer;
+    }
+    
+    .nav-links, .hamburger-nav-links {
+        align-self: center;
+        cursor: pointer;
+        display: flex;
+        margin: auto;
+        margin-right: 2rem;
+    }
+    
+    .nav-links li, .hamburger-nav-links li {
+        list-style-type: none;
+    }
+    
+    .nav-link p{
+        border: 2px solid #091f36;
+        border-radius: 4px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    
+    li :hover p {
+        border: 2px solid #00FFFF;
+        border-radius: 4px;
+        color: #00FFFF;
+    }
+    
+    #contact-label {
+        border: 2px solid #00FFFF;
+        border-radius: 4px;
+        color: #00FFFF;
+    }
+    
+    li :hover #contact-label {
+        border: 2px solid #33FF00;
+        border-radius: 4px;
+        color: #33FF00;
+    }
+    
+    #resume-label {
+        color: white;
+    }
+    
+    li :hover #resume-label {
+        border: 2px solid #00FFFF;
+        border-radius: 4px;
+        color: #00FFFF;
+    }
+
+    .hamburger-menu-open, .hamburger-menu-closed {
+        display: none;
+    }
+
+    #hamburger-home {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex; 
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .navigation-bar, .hamburger-navigation-bar {
@@ -9,7 +95,7 @@
         min-height: 6rem;
         justify-content:  space-between;
         background-color: #091f36;
-        font-size: 14px;
+        font-size: 16px;
         color: white;
     }
 
@@ -125,10 +211,10 @@
         background-color: #091f36;
         color: white;
         list-style: none;
-        margin-top: 6rem;
+        margin-top: 8rem;
         margin-bottom: 4rem;
-        margin-right: 15%;
-        margin-left: 5%; 
+        margin-right: 2%;
+        margin-left: 8%; 
         width: 90%;
     }
 
@@ -150,6 +236,7 @@
         transition: width 0.3s;
         margin-bottom: 1rem;
         font: open;
+        cursor: pointer;
     }
 
     .nav-link:hover {
@@ -161,92 +248,6 @@
     .nav-link p:hover .nav-link a:visited { /*Expand width to the sides -> adjust the .nav-link name*/
         color: white;
         cursor: pointer;
-    }
-
-}
-
-@media only screen and (min-width: 769px) {
-
-    .navigation-bar, .hamburger-navigation-bar {
-        box-shadow: 0 2px 6px 8px rgba(2, 0, 0, 0.2), 1px 1px 2px 0 rgba(0, 0, 0, 0.19);
-        display: flex;
-        position: fixed;
-        z-index: 4;
-        min-width: 100%;
-        min-height: 6rem;
-        justify-content:  space-between;
-        background-color: #091f36;
-        font-size: 18px;
-        color: white;
-    }
-    
-    .navigation-bar .home, .hamburger-navigation-bar .home-hidden { 
-        padding-right: 2rem;
-        padding-left: 2rem;
-        align-self: center;
-        cursor: pointer;
-    }
-    
-    .nav-links, .hamburger-nav-links {
-        align-self: center;
-        cursor: pointer;
-        display: flex;
-        margin: auto;
-        margin-right: 2rem;
-    }
-    
-    .nav-links li, .hamburger-nav-links li {
-        list-style-type: none;
-    }
-    
-    .nav-link p{
-        border: 2px solid #091f36;
-        border-radius: 4px;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin: 0;
-    }
-    
-    li :hover p {
-        border: 2px solid #00FFFF;
-        border-radius: 4px;
-        color: #00FFFF;
-    }
-    
-    #contact-label {
-        border: 2px solid #00FFFF;
-        border-radius: 4px;
-        color: #00FFFF;
-    }
-    
-    li :hover #contact-label {
-        border: 2px solid #33FF00;
-        border-radius: 4px;
-        color: #33FF00;
-    }
-    
-    #resume-label {
-        color: white;
-    }
-    
-    li :hover #resume-label {
-        border: 2px solid #00FFFF;
-        border-radius: 4px;
-        color: #00FFFF;
-    }
-
-    .hamburger-menu-open, .hamburger-menu-closed {
-        display: none;
-    }
-
-    #hamburger-home {
-        display: none;
-    }
-
-    .nav-links {
-        display: flex; 
     }
 }
 
@@ -260,7 +261,7 @@
         min-height: 6rem;
         justify-content:  space-between;
         background-color: #091f36;
-        font-size: 12px;
+        font-size: 14px;
         color: white;
     }
 }

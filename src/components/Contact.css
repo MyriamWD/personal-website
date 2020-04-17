@@ -171,16 +171,16 @@
     }
 
     .contact-button {
-    position: relative;
-    display: inline-block;
-    background-color: #091f36;
-    border: 2px solid #00FFFF;
-    color: #00FFFF;
-    height: 3rem;
-    width: 15rem;
-    font-size: 14px;
-    border-radius: 4px;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-}
+        position: relative;
+        display: inline-block;
+        background-color: #091f36;
+        border: 2px solid #00FFFF;
+        color: #00FFFF;
+        height: 3rem;
+        width: 15rem;
+        font-size: 14px;
+        border-radius: 4px;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
 }
