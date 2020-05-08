@@ -28,3 +28,23 @@
     color: #00FFFF !important;
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .content-home {
+        font-size: 4rem;
+    }
+    .content-subtitle {
+        font-size: 2rem;
+    }
+
+    .learn {
+        font-size: 1rem; 
+    }
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 376px) {}
+
