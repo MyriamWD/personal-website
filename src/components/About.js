@@ -10,7 +10,7 @@ function About() {
                 bgImage={require("../images/myriam_wd_r.jpg")}
                 >
                     <div className="content-about">
-                        <p className="about-info" >Comming soon!</p>
+                        <p className="about-info" >Coming soon!</p>
                     </div>
             </Parallax>
         </div>
