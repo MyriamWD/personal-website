@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image'
 import { Link, animateScroll as scroll } from "react-scroll";
 import HomeLogo from '../images/home-logo.png';
-import ResumePDF from '../documents/mwd-resume-2020.pdf';
+import ResumePDF from '../documents/MyriamWalden-Duarte-Resume.pdf';
 import './Navigation.css';
 
 export default class Navigation extends Component {
